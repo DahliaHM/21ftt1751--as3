@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -10,7 +10,9 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+
   </div>
+  
   <HelloWorld msg="Vite + Vue" />
 </template>
 
@@ -26,5 +28,45 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+</style> -->
+
+
+<script setup>
+
+</script>
+
+<template>
+  
+  <img 
+  src="./assets/images/dahlia.jpeg"
+  />
+  <div>
+    <table class="table-fixed">
+  
+  <tbody>
+    <tr>
+      <td>Dahlia Zakiyah</td>
+    </tr>
+    <tr>
+      <td>Course: Web Development</td>
+    </tr>
+    <tr>
+      <td>WADT-asg3</td>
+    </tr>
+    
+  </tbody>
+</table>
+  </div>
+  
+  
+</template>
+
+<style scoped>
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
 }
 </style>
